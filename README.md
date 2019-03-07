@@ -20,6 +20,6 @@ components: {
 ```
 3、直接使用
 ```
-<only-number-input :decimal="8" :max="10000000000"  name="price" v-model="price"  />
+<only-number-input :decimal="8" :min="-100" :max="10000000000" :isNeg="true" name="price" v-model="price"  />
 //可以使用 vee-validate 插件做验证。
 ```
