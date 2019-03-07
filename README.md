@@ -14,6 +14,9 @@ components: {
 :value //输入框默认值，默认为空
 :decimal //保留小数位数，默认为0，只能输入整数。
 :max //输入的最大值
+:min //输入的最小值
+:isNeg //是否支持负数。默认false 不支持
+:disabled //是否禁用。默认false 不禁用
 ```
 3、直接使用
 ```
